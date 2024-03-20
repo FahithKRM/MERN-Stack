@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Fira Sans", sans-serif;
+}
+
+body {
+	background: #5e5f5c;
+	color: black;
+}
+
+h1 {
+	color: #00246B;
+	background-color: #91b6f7;
+}
+
+.container {
+	background: #f8da5b;
+	max-width: 25rem;
+	padding: 32px;
+	margin: 0 auto;
+}
+
+.heading {
+	text-align: center;
+}
+
+.form {
+	margin-top: 2rem;
+}
+
+.form input {
+	width: 85%;
+	padding: 3px;
+}
+
+.form button {
+	padding: 5px;
+	background-color: #06e806;
+	border: none;
+	cursor: pointer;
+}
+
+.todo {
+	padding: 10px;
+	border-radius: 13px;
+	background-color: #f5f9ee;
+	margin-top: 2rem;
+	display: grid;
+	grid-template-columns: 0.2fr 3fr 0.3fr;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #01131a;
+	transition: 0.4s;
+}
+
+.check-complete .checkbox {
+	background-color: blue;
+
+}
+
+.check-complete .text {
+	text-decoration: line-through;
+}
+
+
+.text {
+	margin-left: 1rem;
+}
+
+.delete-todo {
+	color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
